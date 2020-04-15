@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_ava1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/thum" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_ava1"
+        android:layout_alignTop="@+id/img_ava1"
+        android:layout_alignBottom="@+id/img_ava1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:text="Full name"
+        android:textSize="28sp"/>
+    <CheckBox
+        android:id="@+id/chkselect1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
